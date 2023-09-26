@@ -1,0 +1,8 @@
+.section_OnePotWonder {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/public/images/lambTrayTagine.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
