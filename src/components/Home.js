@@ -136,7 +136,6 @@ export const Home = () => {
           }
         }}
       >
-
         <SwiperSlide>
           <HomeCard data={{ imagesSrc: amagwinyaMain, price: '10 mins', title: 'Magwinya', }} />
           <a href='/Magwinya' ref={magwinyaEl}> <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => magwinyaEl.current.click()} >See Details</Button ></a>
@@ -196,10 +195,9 @@ export const Home = () => {
       <h2 className="text-center text-dark my-5" style={{ position: "relative", left: "13%", top: "250px", fontSize: "50px", fontWeight: "600", }}>Our <span style={{color:"orange",}}>Products</span></h2>
       <hr className='hr8'></hr>
       <hr className='hr9'></hr>
-
       <p className="text-center text-dark my-5" style={{ position: "relative", left: "13%", top: "200px", fontSize: "25px", }}>You can also Visit <br />Our high-quality fresh and frozen chicken products are a South African favourite!</p>
     </div>
-
+    
     <MDBContainer style={{ position: "relative", left: "12%", top: "90vh", }}>
       <MDBRow>
         <MDBCol size='md'>

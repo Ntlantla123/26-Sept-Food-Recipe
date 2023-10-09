@@ -29,7 +29,7 @@ const Login = () => {
                     } else {
                         toast.error('Please Enter valid credentials');
                     }
-                }
+                } 
             }).catch((err) => {
                 toast.error('Login Failed due to :' + err.message);
             });

@@ -4,7 +4,6 @@ import './Contact.css';
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 
 import logoshesha from './images/logoshesha.png';
@@ -21,28 +20,18 @@ export default function Contact() {
                     <p className="text-center text-light my-5" style={{ position: "relative", left: "1%", top: "80px", fontSize: "20px", }}>Contact</p>        </div>
             </div>
         </header>
-        {/*Header Section*/}
-
-        <p className="text-center text-dark my-5" style={{ position: "relative", left: "15%", top: "10px", fontSize: "20px", fontWeight: "600", }}>Lunch Recipes</p>
+        {/*End Header Section*/}
 
         <h4 className="text-center text-dark my-5" style={{ position: "relative", left: "15%", top: "-10px", fontSize: "50px", }}>Our Contact Details</h4>
 
-        <Container style={{position:"relative",left:"25%",}}>
-
-            <Row>
-                <Col><span style={{ fontWeight: "600",fontSize:"25px", }}>Write to us</span> <br />ntlantla.simelela@younglings.africa</Col>
-                <Col><span style={{ fontWeight: "600",fontSize:"25px", }}>Call us</span><br />tel : 021 675 3245</Col>
-                <Col ><span style={{ fontWeight: "600",fontSize:"25px", }}>Visit us</span><br />20541 Bishop Tutu Street</Col>
-            </Row>
-        </Container>
-
-
-
-
-
-
-
-
+<Container>
+    <Row className="mb-5 mt-3">
+        <h6 className="display-4 mb-4">
+            Contact
+        </h6>
+    </Row>
+</Container>
+       
         {/*Footer Section Started*/}
         <div className="footer" style={{ background: "black", position: "relative", top: "750px", }}>
             <div className="sb_footer section_padding">

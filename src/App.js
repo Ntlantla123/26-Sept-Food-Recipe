@@ -9,13 +9,13 @@ import { Lessons } from './components/Lessons';
 import { Recipes } from './components/Recipes';
 import { ToastContainer } from 'react-toastify'; // Message Notification //
 import { ViewIngredients } from './components/ViewIngredients';
-import { ViewIngredientsburger } from './components/ViewIngredientsburger';
+import ViewIngredientsburger  from './components/ViewIngredientsburger';
 import { Video } from './components/Video';
 import { Videoburger } from './components/Videoburger';
 import HomeCard from './components/HomeCard';
-import { Shushi } from './components/Shushi';
-import { TandooriChicken } from './components/TandooriChicken';
-import { ButternutRisotto } from './components/ButternutRisotto';
+import Shushi  from './components/Shushi';
+import TandooriChicken  from './components/TandooriChicken';
+import ButternutRisotto  from './components/ButternutRisotto';
 import BreadForTimes from './components/BreadForTimes';
 import CreamyPasta from './components/CreamyPasta';
 import MeatBalls from './components/MeatBalls';
@@ -27,7 +27,7 @@ import WrapperSausage from './components/WrapperSausage';
 import ChickenTikka from './components/ChickenTikka';
 import ButterChickenCurry from './components/ButterChickenCurry';
 import SausageTomato from './components/SausageTomato';
-import AfricanStylePap from './components/AfricanStylePap';
+import AfricanStylePap from './components/AfricanStylePap'; 
 import BeaconCarbonara from './components/BeaconCarbonara';
 import OnePotWonder from './components/OnePotWonder';
 import MaroccanLamb from './components/MaroccanLamb';
@@ -48,7 +48,7 @@ function App() {
     <div className="App">
       <ToastContainer theme='colored'></ToastContainer>
       <BrowserRouter>  
-        <Routes>
+        <Routes>   
           <Route path='/' element={<Landing />}></Route>
           <Route path='/Register' element={<Register />}></Route>
           <Route path='/Login' element={<Login />}></Route>
@@ -63,7 +63,7 @@ function App() {
           <Route path='/homecard' element={<HomeCard />}></Route>
           <Route path='/shushi' element={<Shushi />}></Route>
           <Route path='/tandoorichicken' element={<TandooriChicken />}></Route>
-          <Route path='/butternutristto' element={<ButternutRisotto />}></Route>
+          <Route path='/ButternutRisotto' element={<ButternutRisotto />}></Route>
           <Route path='/breadfortimes' element={<BreadForTimes />}></Route>
           <Route path='/CreamyPasta' element={<CreamyPasta />}></Route>
           <Route path='/meatballs' element={<MeatBalls />}></Route>
