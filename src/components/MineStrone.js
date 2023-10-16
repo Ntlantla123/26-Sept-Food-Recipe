@@ -1,8 +1,7 @@
-import React, {useRef} from 'react';
+import React, {useRef } from 'react';
 import { TopNav } from './TopNav';
-import './ChickenWrap.css';
-import Image from 'react-bootstrap/Image';
-import { Link, NavLink } from 'react-router-dom';
+import './MineStrone.css';
+import { Link,NavLink } from 'react-router-dom';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
@@ -23,10 +22,9 @@ import chickenWrap from './images/chickenWrap.jpg';
 import chickenBreyanni from './images/chickenBreyanni.webp';
 import fishFishers from './images/fishFishers.jpg';
 import curryFood from './images/curryFood.webp';
-import beaconPork from './images/beaconPork.jpg';
 
 
-export const ChickenWrap = () => {
+export const MineStrone = () => {
 
   const pancakeIngredientsEl = useRef();
   const burgerEl = useRef();
@@ -34,31 +32,29 @@ export const ChickenWrap = () => {
   const tandooriChickenEl = useRef();
   const butternutrisottoEl = useRef();
   const minestroneSoupEl = useRef();
-  const chickenTetrazziniEl = useRef();
 
   return (<>
     <TopNav />
-    <header className="masthead_ChickenWrap">
+ {/*Header Section*/}
+ <header className="masthead_MineStrone">
       <div className="container h-100">
         <div className="col-12 text-center">
         <p className="text-center text-light" style={{ position: "relative", top: "140px", fontSize: "23px", }}>Quick & Easy Recipes</p>
-          <h1 className="text-center text-light" style={{ position: "relative", top: "25vh", fontSize: "55px", }}>Chicken Wrap Recipes</h1>
-          <p className="text-center text-light" style={{ position: "relative", top: "35vh", fontSize: "25px", }}>You can't go wrong with a hot fries. It's a sure way to get the kids clearing their plates, and a winning dinner for two. We've got everything from the classics to fresh new inspiration when you feel like trying something new.</p>
+          <h1 className="text-center text-light" style={{ position: "relative", top: "25vh", fontSize: "55px", }}>Minestrone Soup Recipes</h1>
+          <p className="text-center text-light" style={{ position: "relative", top: "35vh", fontSize: "25px", }}>You can't go wrong with a Minestrone Soup. It's a sure way to get the kids clearing their plates, and a winning dinner for two. We've got everything from the classics to fresh new inspiration when you feel like trying something new.</p>
 
         </div>
       </div>
     </header>
-    <h4 className="text-center text-dark my-5" style={{ position: "relative", left: "13%", top: "40px", fontWeight: "600", fontSize: "60px", }}>Delicious Chicken Wrap</h4>
-    <div className='text-center' style={{ position: "relative", left: "13%", top: "60px", }}>
-      <Image src="images/chickenWrap.jpg" fluid />;
-    </div>
 
+    <h4 className="text-start text-dark my-5" style={{ position: "relative", left: "15%", top: "40px", fontWeight: "600", fontSize: "60px", }}>Minestrone Soup</h4>
+   
     <div style={{ position: "relative", top: "-75vh", }}>
       <p className="text-start text-dark my-5" style={{ position: "relative", left: "15%", top: "90vh", fontSize: "23px", }}>Top Tip: Soak the wooden skewers in a plate of water for 15 minutes <br />
         before skewering the ingredients. This ensures that the skewers don't burn when braaied.</p>
       
       
-        <Container >
+      <Container >
         <div className="singleCol social-media-icons-white d-flex justify-content-evenly" style={{position:"relative",top:"90vh",}}>
         <a href="https://facebook.com" >
           <FontAwesomeIcon icon={faFacebook} />
@@ -95,19 +91,10 @@ export const ChickenWrap = () => {
     </div>
     {/*End Column Section */}
 
-    <h4 className="text-start text-dark my-5" style={{ position: "relative",left:"16%", top: "30vh", fontWeight: "600", }}>Methods</h4>
-   
-   <div>
-      <Card style={{ width: "50%",position: "relative", left: "15%", top: "30vh",borderRadius:"20px", }}>
-        <Card.Body>
-          <Card.Title>Special title treatment</Card.Title>
-          <Card.Text>
-            With supporting text below as a natural lead-in to additional content.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    
-      <Card style={{ width: "50%",position: "relative", left: "15%", top: "34vh",borderRadius:"20px", }}>
+    <h4 className="text-start text-dark my-5" style={{ position: "relative", left: "16%", top: "30vh", fontWeight: "600", }}>Methods</h4>
+
+    <div>
+      <Card style={{ width: "50%", position: "relative", left: "15%", top: "30vh", borderRadius: "20px", }}>
         <Card.Body>
           <Card.Title>Special title treatment</Card.Title>
           <Card.Text>
@@ -116,7 +103,7 @@ export const ChickenWrap = () => {
         </Card.Body>
       </Card>
 
-      <Card style={{ width: "50%",position: "relative", left: "15%", top: "38vh",borderRadius:"20px", }}>
+      <Card style={{ width: "50%", position: "relative", left: "15%", top: "34vh", borderRadius: "20px", }}>
         <Card.Body>
           <Card.Title>Special title treatment</Card.Title>
           <Card.Text>
@@ -124,87 +111,91 @@ export const ChickenWrap = () => {
           </Card.Text>
         </Card.Body>
       </Card>
-      </div>
 
-      {/*Slider image Section*/}
+      <Card style={{ width: "50%", position: "relative", left: "15%", top: "38vh", borderRadius: "20px", }}>
+        <Card.Body>
+          <Card.Title>Special title treatment</Card.Title>
+          <Card.Text>
+            With supporting text below as a natural lead-in to additional content.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </div>
+
+
+     {/*Slider image Section*/}
      <h4 className='text-center' style={{ position: "relative", left: "15%", fontSize: "50px", top: "60vh", fontWeight: "600", }}>Related Recipes </h4>
 
-<div className="container py-4 px-4 justify-content-center" style={{ position: "relative", left: "12%", top: "70vh", }}>
- <Swiper
-   freeMode={true}
-   grabCursor={true}
-   modules={[FreeMode]}
-   className="mySwiper"
-   slidesPerView={5}
-   spaceBetween={30}
-   breakpoints={{
-     0: {
-       slidesPerView: 1,
-       spaceBetween: 10,
-     },
-     480: {
-       slidesPerView: 2,
-       spaceBetween: 10,
-     },
-     768: {
-       slidesPerView: 3,
-       spaceBetween: 15,
-     },
-     1024: {
-       slidesPerView: 4,
-       spaceBetween: 10,
-     },
-     1280: {
-       slidesPerView: 5,
-       spaceBetween: 30,
-     }
-   }}
- >
+     <div className="container py-4 px-4 justify-content-center" style={{ position: "relative", left: "12%", top: "70vh", }}>
+      <Swiper
+        freeMode={true}
+        grabCursor={true}
+        modules={[FreeMode]}
+        className="mySwiper"
+        slidesPerView={5}
+        spaceBetween={30}
+        breakpoints={{
+          0: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          480: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+          },
+          1280: {
+            slidesPerView: 5,
+            spaceBetween: 30,
+          }
+        }}
+      >
 
-   <SwiperSlide>
-     <HomeCard data={{ imagesSrc: amagwinyaMain, price: '10 mins', title: 'Magwinya', }} />
-     <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => pancakeIngredientsEl.current.click()} ><NavLink ref={pancakeIngredientsEl} to='/ViewIngredients' />View Recipe</Button>
-   </SwiperSlide>
+        <SwiperSlide>
+          <HomeCard data={{ imagesSrc: amagwinyaMain, price: '10 mins', title: 'Magwinya', }} />
+          <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => pancakeIngredientsEl.current.click()} ><NavLink ref={pancakeIngredientsEl} to='/ViewIngredients' />View Recipe</Button>
+        </SwiperSlide>
 
-   <SwiperSlide>
-     <HomeCard data={{ imagesSrc: friesMain, price: '35 mins', title: 'Fries' }} />
-     <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => burgerEl.current.click()} ><NavLink ref={burgerEl} to='/ViewIngredientsburger' hidden />View Recipe</Button>
-   </SwiperSlide>
+        <SwiperSlide>
+          <HomeCard data={{ imagesSrc: friesMain, price: '35 mins', title: 'Fries' }} />
+          <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => burgerEl.current.click()} ><NavLink ref={burgerEl} to='/ViewIngredientsburger' hidden />View Recipe</Button>
+        </SwiperSlide>
 
-   <SwiperSlide>
-     <HomeCard data={{ imagesSrc: chickenWrap, price: '15 mins', title: 'Chicken Wrap' }} />
-     <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => shushiEl.current.click()} ><NavLink ref={shushiEl} to='/shushi' />View Recipe</Button>
-   </SwiperSlide>
+        <SwiperSlide>
+          <HomeCard data={{ imagesSrc: chickenWrap, price: '15 mins', title: 'Chicken Wrap' }} />
+          <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => shushiEl.current.click()} ><NavLink ref={shushiEl} to='/shushi' />View Recipe</Button>
+        </SwiperSlide>
 
-   <SwiperSlide>
-     <HomeCard data={{ imagesSrc: chickenBreyanni, price: '23 mins', title: 'Chicken Breyanni' }} />
-     <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => tandooriChickenEl.current.click()} ><NavLink ref={tandooriChickenEl} to='/TandooriChicken' />View Recipe</Button>
-   </SwiperSlide>
+        <SwiperSlide>
+          <HomeCard data={{ imagesSrc: chickenBreyanni, price: '23 mins', title: 'Chicken Breyanni' }} />
+          <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => tandooriChickenEl.current.click()} ><NavLink ref={tandooriChickenEl} to='/TandooriChicken' />View Recipe</Button>
+        </SwiperSlide>
 
-   <SwiperSlide>
-     <HomeCard data={{ imagesSrc: fishFishers, price: '45 mins', title: 'Fish Fishers' }} />
-     <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => butternutrisottoEl.current.click()} ><NavLink ref={butternutrisottoEl} to='/ButternutRisotto' />View Recipe</Button>
-   </SwiperSlide>
+        <SwiperSlide>
+          <HomeCard data={{ imagesSrc: fishFishers, price: '45 mins', title: 'Fish Fishers' }} />
+          <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => butternutrisottoEl.current.click()} ><NavLink ref={butternutrisottoEl} to='/ButternutRisotto' />View Recipe</Button>
+        </SwiperSlide>
 
-   <SwiperSlide>
-     <HomeCard data={{ imagesSrc: curryFood, price: 'R45', title: 'Japanese Curry' }} />
-     <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => minestroneSoupEl.current.click()} ><NavLink ref={minestroneSoupEl} to='/minestroneSoup' />View Recipe</Button>
-   </SwiperSlide>
-
-   <SwiperSlide>
-     <HomeCard data={{ imagesSrc: beaconPork, price: 'R10', title: 'Home Cured Pork' }} />
-     <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => chickenTetrazziniEl.current.click()} ><NavLink ref={chickenTetrazziniEl} to='/chickenTetrazzini' />View Recipe</Button>
-   </SwiperSlide>
- </Swiper>
-</div>
-{/*end Slide Section*/}
-
+        <SwiperSlide>
+          <HomeCard data={{ imagesSrc: curryFood, price: 'R45', title: 'Japanese Curry' }} />
+          <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => minestroneSoupEl.current.click()} ><NavLink ref={minestroneSoupEl} to='/minestroneSoup' />View Recipe</Button>
+        </SwiperSlide>
+      </Swiper>
+    </div>
+    {/*end Slide Section*/}
 
     {/*Footer Section Started*/}
-    <div className="footer" style={{ background: "black", position: "relative",top:"80vh", }}>
+    <div className="footer" style={{ background: "black",position:"relative",top:"80vh", }}>
       <div className="sb_footer section_padding">
         <div className="sb_footer-links">
-          <a href='/Home'><img src={logoshesha} alt="logoshesha.png" style={{ color: "white", }} /><em style={{ fontSize: "30px", textDecoration: "none", }}></em></a>
+          <a href='/Home'><img src={logoshesha} alt="logoshesha.png" style={{ color: "white", }} /></a>
           <div className="sb_footer-links_div">
             <h4>Contact Info</h4>
             <p><span style={{ color: "whitesmoke", }}>CALL :</span> 021 110 9870</p>

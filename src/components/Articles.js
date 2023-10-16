@@ -2,16 +2,14 @@ import React from 'react'
 import './Articles.css';
 import { TopNav } from './TopNav';
 import { Link } from 'react-router-dom';
-
-import logoshesha from './images/logoshesha.png';
-
 import { Container } from 'react-bootstrap'
-
 import { faFacebook, faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
-export default function Articles() {
+import logoshesha from './images/logoshesha.png';
+
+export const Articles = () => {
   return (<>
     <TopNav />
     {/* Header Section */}

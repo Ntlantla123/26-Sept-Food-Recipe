@@ -8,7 +8,7 @@ import 'swiper/swiper-bundle.min.css';
 import HomeCard from './HomeCard';
 import { Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
- 
+
 //Import Images
 import logoshesha from './images/logoshesha.png';
 import viewpancake2 from './images/viewpancake2.png';
@@ -229,32 +229,32 @@ export const Lessons = () => {
         >
           <SwiperSlide>
             <HomeCard data={{ imagesSrc: viewpancake2, price: '10 mins', title: 'Pancake', }} />
-            <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => pancakeIngredientsEl.current.click()} ><NavLink ref={pancakeIngredientsEl} to='/ViewIngredients' />View Recipe</Button>
+            <a href='/ViewIngredients' ref={pancakeIngredientsEl}><Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => pancakeIngredientsEl.current.click()} >View Recipe</Button></a>
           </SwiperSlide>
 
           <SwiperSlide>
             <HomeCard data={{ imagesSrc: viewburger, price: '35 mins', title: 'Burger' }} />
-            <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => burgerEl.current.click()} ><NavLink ref={burgerEl} to='/ViewIngredientsburger' hidden />View Recipe</Button>
+            <a href='/ViewIngredientsburger' ref={burgerEl}><Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => burgerEl.current.click()} >View Recipe</Button></a>
           </SwiperSlide>
 
           <SwiperSlide>
             <HomeCard data={{ imagesSrc: shushi, price: '15 mins', title: 'Shiki Shushi' }} />
-            <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => shushiEl.current.click()} ><NavLink ref={shushiEl} to='/shushi' />View Recipe</Button>
+            <a href='/shushi' ref={shushiEl}><Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => shushiEl.current.click()} >View Recipe</Button></a>
           </SwiperSlide>
 
           <SwiperSlide>
             <HomeCard data={{ imagesSrc: tandooriChicken, price: '23 mins', title: 'Tandoori Chicken' }} />
-            <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => tandooriChickenEl.current.click()} ><NavLink ref={tandooriChickenEl} to='/TandooriChicken' />View Recipe</Button>
+            <a href='/TandooriChicken' ref={tandooriChickenEl}> <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => tandooriChickenEl.current.click()} >View Recipe</Button></a>
           </SwiperSlide>
 
           <SwiperSlide>
             <HomeCard data={{ imagesSrc: butternutrisotto, price: '45 mins', title: 'Butternut Risotto' }} />
-            <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => butternutrisottoEl.current.click()} ><NavLink ref={butternutrisottoEl} to='/ButternutRisotto' />View Recipe</Button>
+            <a href='/ButternutRisotto' ref={butternutrisottoEl}> <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => butternutrisottoEl.current.click()} >View Recipe</Button></a>
           </SwiperSlide>
 
           <SwiperSlide>
             <HomeCard data={{ imagesSrc: minestroneSoup, price: 'R45', title: 'Minestrone Soup' }} />
-            <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => minestroneSoupEl.current.click()} ><NavLink ref={minestroneSoupEl} to='/minestroneSoup' />View Recipe</Button>
+            <a href='/MineStrone' ref={minestroneSoupEl}> <Button style={{ width: "100%", backgroundColor: "grey", fontWeight: "600", border: "none", height: "50px", }} onClick={() => minestroneSoupEl.current.click()} >View Recipe</Button></a>
           </SwiperSlide>
 
           <SwiperSlide>

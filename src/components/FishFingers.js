@@ -25,7 +25,7 @@ import fishFishers from './images/fishFishers.jpg';
 import curryFood from './images/curryFood.webp';
 
 
-export default function Magwinya() {
+export const FishFingers = () => {
 
   const pancakeIngredientsEl = useRef();
   const burgerEl = useRef();

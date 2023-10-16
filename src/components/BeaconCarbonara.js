@@ -3,17 +3,15 @@ import { MDBContainer } from "mdb-react-ui-kit";
 import { TopNav } from './TopNav';
 import './BeaconCarbonana.css';
 import { Link } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
 import { MDBRow, MDBCol } from 'mdb-react-ui-kit';
-
 
 
 import logoshesha from './images/logoshesha.png';
 
-export default function BeaconCarbonara() {
+export const BeaconCarbonara = () => {
     return (<>
         <TopNav />
-        <section className="section_BeaconCarbonana" style={{ backgroundColor: "rgb(248, 248, 248)", height: "20vh", width: "125%",}}>
+        <section className="section_BeaconCarbonana" style={{ backgroundColor: "rgb(248, 248, 248)", height: "20vh", width: "125%", }}>
             <h4 className="text-start text-light my-5" style={{ position: "relative", top: "30px", left: "10%", fontSize: "40px", fontWeight: "600", }}>Make your Beacon Carbonara Pasta</h4>
         </section>
 
@@ -28,8 +26,8 @@ export default function BeaconCarbonara() {
 
         <MDBContainer style={{ position: "relative", left: "12%", }}>
             <div className="ratio ratio-16x9" style={{ width: "60%", }}>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/waH2yGRWh5E?si=KJJmC6KFIZIzYejz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            </div>
-            <p style={{ fontSize: "30px",position:"relative",top:"15px",  }}>Easy Carbonara Pasta with Bacon | 5 ingredients | 10 min</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/waH2yGRWh5E?si=KJJmC6KFIZIzYejz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>            </div>
+            <p style={{ fontSize: "30px", position: "relative", top: "15px", }}>Easy Carbonara Pasta with Bacon | 5 ingredients | 10 min</p>
         </MDBContainer>
 
 
@@ -39,26 +37,26 @@ export default function BeaconCarbonara() {
             <MDBRow>
                 <MDBCol size='md'>
                     <div className="ratio ratio-16x9" style={{ width: "100%", }}>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4nAfxzE02Gw?si=iV1FKn53J8XYij-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
-                    <p style={{ position:"relative",top:"15px",  }}>Easy Carbonara in 15 Minutes</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4nAfxzE02Gw?si=iV1FKn53J8XYij-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
+                    <p style={{ position: "relative", top: "15px", }}>Easy Carbonara in 15 Minutes</p>
                 </MDBCol>
 
                 <MDBCol size='md'>
                     <div className="ratio ratio-16x9" style={{ width: "100%", }}>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/D_2DBLAt57c?si=lFsdC3AM_ZfNCSMK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
-                    <p style={{ position:"relative",top:"15px",  }}>How to Make Classic Carbonara | Jamie Oliver</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/D_2DBLAt57c?si=lFsdC3AM_ZfNCSMK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
+                    <p style={{ position: "relative", top: "15px", }}>How to Make Classic Carbonara | Jamie Oliver</p>
                 </MDBCol>
 
                 <MDBCol size='md'>
                     <div className="ratio ratio-16x9" style={{ width: "100%", }}>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/5t7JLjr1FxQ?si=bJA41RJSwFLNY41H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
-                    <p style={{ position:"relative",top:"15px",  }}>Gordon Ramsay Cooks Carbonara in Under 10 Minutes | Ramsay in 10</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5t7JLjr1FxQ?si=bJA41RJSwFLNY41H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
+                    <p style={{ position: "relative", top: "15px", }}>Gordon Ramsay Cooks Carbonara in Under 10 Minutes | Ramsay in 10</p>
                 </MDBCol>
 
                 <MDBCol size='md'>
                     <div className="ratio ratio-16x9" style={{ width: "100%", }}>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dzyXBU3dIys?si=dU4YQsyWVZT282wR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
-                    <p style={{ position:"relative",top:"15px",  }}>Pasta Carbonara the American Way (With Bacon)</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dzyXBU3dIys?si=dU4YQsyWVZT282wR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
+                    <p style={{ position: "relative", top: "15px", }}>Pasta Carbonara the American Way (With Bacon)</p>
                 </MDBCol>
             </MDBRow>
         </MDBContainer>
@@ -67,26 +65,26 @@ export default function BeaconCarbonara() {
             <MDBRow>
                 <MDBCol size='md'>
                     <div className="ratio ratio-16x9" style={{ width: "100%", }}>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Mprr5Q5Z7H4?si=vj-_QDd47JT9MBVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
-                    <p style={{ position:"relative",top:"15px",  }}>Creamy Carbonara Pasta - Christmas Recipe</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Mprr5Q5Z7H4?si=vj-_QDd47JT9MBVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
+                    <p style={{ position: "relative", top: "15px", }}>Creamy Carbonara Pasta - Christmas Recipe</p>
                 </MDBCol>
 
                 <MDBCol size='md'>
                     <div className="ratio ratio-16x9" style={{ width: "100%", }}>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vBcXtkXzuVE?si=LTO-vaqDM_E2s9Lt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
-                    <p style={{ position:"relative",top:"15px",  }}>Watch: Easy Cheesy Creamy Spaghetti Carbonara *Non-Traditional*</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/vBcXtkXzuVE?si=LTO-vaqDM_E2s9Lt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
+                    <p style={{ position: "relative", top: "15px", }}>Watch: Easy Cheesy Creamy Spaghetti Carbonara *Non-Traditional*</p>
                 </MDBCol>
 
                 <MDBCol size='md'>
                     <div className="ratio ratio-16x9" style={{ width: "100%", }}>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/H1nATgspzKM?si=OZPUoOsKWHF_2gnl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
-                    <p style={{ position:"relative",top:"15px",  }}>My husband's favorite recipe! Perfect pasta carbonara recipe</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/H1nATgspzKM?si=OZPUoOsKWHF_2gnl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
+                    <p style={{ position: "relative", top: "15px", }}>My husband's favorite recipe! Perfect pasta carbonara recipe</p>
                 </MDBCol>
 
                 <MDBCol size='md'>
                     <div className="ratio ratio-16x9" style={{ width: "100%", }}>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/6Oy5ITdDQ3o?si=qK1rwG8q-1wgeXbe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
-                    <p style={{ fposition:"relative",top:"15px",  }}>How to Make SPAGHETTI alla CARBONARA in 2021 (Next Level Carbonara)</p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6Oy5ITdDQ3o?si=qK1rwG8q-1wgeXbe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    </div>
+                    <p style={{ fposition: "relative", top: "15px", }}>How to Make SPAGHETTI alla CARBONARA in 2021 (Next Level Carbonara)</p>
                 </MDBCol>
             </MDBRow>
         </MDBContainer>

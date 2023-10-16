@@ -1,7 +1,7 @@
 import React from 'react'
 import { TopNav } from './TopNav'
 
-export default function Kiddies() {
+export const Kiddies = () => {
   return (<>
   <TopNav/>
     

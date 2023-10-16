@@ -27,7 +27,7 @@ import curryFood from './images/curryFood.webp';
 import beaconPork from './images/beaconPork.jpg';
 
 
-export default function Magwinya() {
+export const FriesHotchips = () => {
 
   const pancakeIngredientsEl = useRef();
   const burgerEl = useRef();

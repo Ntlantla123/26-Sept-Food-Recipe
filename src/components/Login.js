@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
 
-const Login = () => {
+export const Login = () => {
     const [username, usernameupdate] = useState('');
     const [password, passwordupdate] = useState('');
 
@@ -70,7 +70,6 @@ const Login = () => {
                 </form>
             </div>
         </div>
-    );
+    )
 }
 
-export default Login;

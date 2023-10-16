@@ -11,7 +11,7 @@ import { faFacebook, faLinkedin, faGithub, faInstagram } from '@fortawesome/free
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
-export default function breadForTimes() {
+export const MeatBalls = () => {
   return (<>
     <TopNav />
     <header className="Header_Bread12">

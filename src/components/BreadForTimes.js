@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 
-export default function breadForTimes() {
+export const BreadForTimes = () => {
   return (<>
     <TopNav />
     {/*Start section */}

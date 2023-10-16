@@ -3,14 +3,13 @@ import { MDBContainer } from "mdb-react-ui-kit";
 import { TopNav } from './TopNav';
 import './ButterChicken.css';
 import { Link } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
 import { MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
 
 
 import logoshesha from './images/logoshesha.png';
 
-export default function ChickenTikka() {
+export const ButterChickenCurry = () => {
     return (<>
         <TopNav />
         <section className="section_ButterChicken" style={{ backgroundColor: "rgb(248, 248, 248)", height: "20vh", width: "125%", }}>

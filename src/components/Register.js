@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 
-const Register = () => {
+export const Register = () => {
 
 
     const [id, idchange] = useState("");
@@ -102,7 +102,6 @@ const Register = () => {
                 </form>
             </div>
         </div>
-    );
+    )
 }
 
-export default Register;

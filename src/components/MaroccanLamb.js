@@ -10,7 +10,7 @@ import { MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
 import logoshesha from './images/logoshesha.png';
 
-export default function MaroccanLamb() {
+export const MaroccanLamb = () => {
     return (<>
         <TopNav />
         <section className="section_OnePotWonder" style={{ backgroundColor: "rgb(248, 248, 248)", height: "20vh", width: "125%", }}>

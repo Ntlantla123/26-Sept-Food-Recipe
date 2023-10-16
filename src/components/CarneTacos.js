@@ -10,7 +10,7 @@ import { Container } from 'react-bootstrap'
 import { faFacebook, faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-export default function breadForTimes() {
+export const CarneTacos = () => {
   return (<>
     <TopNav />
     <header className="Header_Bread12">
@@ -37,8 +37,8 @@ export default function breadForTimes() {
     {/*end row section */}
 
     <div className="text" style={{ position: "relative", left: "20%", fontSize: "23px", top: "30vh", }}>
-      <p>Carne asada tacos are delicious flank steak, Mexican-inspired street tacos! Just load up your tortilla with<br/>
-       juicy steak bites, avocado, onion, cotija cheese, and fresh cilantro. I think we've firmly established<br/>
+      <p>Carne asada tacos are delicious flank steak, Mexican-inspired street tacos! Just load up your tortilla with<br />
+        juicy steak bites, avocado, onion, cotija cheese, and fresh cilantro. I think we've firmly established<br />
         (through the numerous recipes on this website) that I'm a lover of Mexican food.</p>
     </div>
 

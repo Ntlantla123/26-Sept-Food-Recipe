@@ -1,54 +1,54 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Landing } from './components/Landing';
-import Register from './components/Register';
-import Login from './components/Login';
+import { Register } from './components/Register';
+import { Login } from './components/Login';
 import { TopNav } from './components/TopNav';
 import { Home } from './components/Home';
 import { Lessons } from './components/Lessons';
 import { Recipes } from './components/Recipes';
 import { ToastContainer } from 'react-toastify'; // Message Notification //
 import { ViewIngredients } from './components/ViewIngredients';
-import ViewIngredientsburger  from './components/ViewIngredientsburger';
+import { ViewIngredientsburger } from './components/ViewIngredientsburger';
 import { Video } from './components/Video';
 import { Videoburger } from './components/Videoburger';
 import HomeCard from './components/HomeCard';
-import Shushi  from './components/Shushi';
-import TandooriChicken  from './components/TandooriChicken';
-import ButternutRisotto  from './components/ButternutRisotto';
-import BreadForTimes from './components/BreadForTimes';
-import CreamyPasta from './components/CreamyPasta';
-import MeatBalls from './components/MeatBalls';
-import CarneTacos from './components/CarneTacos';
-import Articles from './components/Articles';
-import OrientalDrumStick from './components/OrientalDrumStick';
-import CreamyChickenRossitto from './components/CreamyChickenRossitto';
-import WrapperSausage from './components/WrapperSausage';
-import ChickenTikka from './components/ChickenTikka';
-import ButterChickenCurry from './components/ButterChickenCurry';
-import SausageTomato from './components/SausageTomato';
-import AfricanStylePap from './components/AfricanStylePap'; 
-import BeaconCarbonara from './components/BeaconCarbonara';
-import OnePotWonder from './components/OnePotWonder';
-import MaroccanLamb from './components/MaroccanLamb';
-import UmleqwaMeals from './components/UmleqwaMeals';
-import About from './components/About';
-import Contact from './components/Contact';
-import Magwinya from './components/Magwinya';
-import FriesHotchips from './components/FriesHotchips';
-import ChickenWrap from './components/ChickenWrap';
-import Kiddies from './components/Kiddies';
-import Briyanni from './components/Briyanni';
-import FishFingers from './components/FishFingers';
-import Search from './components/Search';
+import { Shushi } from './components/Shushi';
+import { TandooriChicken } from './components/TandooriChicken';
+import { ButternutRisotto } from './components/ButternutRisotto';
+import { BreadForTimes } from './components/BreadForTimes';
+import { CreamyPasta } from './components/CreamyPasta';
+import { MeatBalls } from './components/MeatBalls';
+import { CarneTacos } from './components/CarneTacos';
+import { Articles } from './components/Articles';
+import { OrientalDrumStick } from './components/OrientalDrumStick';
+import { CreamyChickenRossitto } from './components/CreamyChickenRossitto';
+import { WrapperSausage } from './components/WrapperSausage';
+import { ChickenTikka } from './components/ChickenTikka';
+import { ButterChickenCurry } from './components/ButterChickenCurry';
+import { SausageTomato } from './components/SausageTomato';
+import { AfricanStylePap } from './components/AfricanStylePap';
+import { BeaconCarbonara } from './components/BeaconCarbonara';
+import { OnePotWonder } from './components/OnePotWonder';
+import { MaroccanLamb } from './components/MaroccanLamb';
+import { UmleqwaMeals } from './components/UmleqwaMeals';
+import { About } from './components/About';
+import { Contact } from './components/Contact';
+import { Magwinya } from './components/Magwinya';
+import { FriesHotchips } from './components/FriesHotchips';
+import { ChickenWrap } from './components/ChickenWrap';
+import { Kiddies } from './components/Kiddies';
+import { Briyanni } from './components/Briyanni';
+import { FishFingers } from './components/FishFingers';
+import { MineStrone } from './components/MineStrone';
 
 function App() {
- 
+
   return (
     <div className="App">
       <ToastContainer theme='colored'></ToastContainer>
-      <BrowserRouter>  
-        <Routes>   
+      <BrowserRouter>
+        <Routes>
           <Route path='/' element={<Landing />}></Route>
           <Route path='/Register' element={<Register />}></Route>
           <Route path='/Login' element={<Login />}></Route>
@@ -82,13 +82,13 @@ function App() {
           <Route path='/umleqwameals' element={<UmleqwaMeals />}></Route>
           <Route path='/about' element={<About />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
-          <Route path='/magwinya' element={<Magwinya/>}></Route>
-          <Route path='frieshotchips' element={<FriesHotchips/>}></Route>
-          <Route path='ChickenWrap' element={<ChickenWrap/>}></Route>
-          <Route path='kiddies' element={<Kiddies/>}></Route>
-          <Route path='briyanni' element={<Briyanni/>}></Route>
-          <Route path='fishfingers' element={<FishFingers/>}></Route>
-          <Route path='search' element={<Search/>}></Route>
+          <Route path='/magwinya' element={<Magwinya />}></Route>
+          <Route path='frieshotchips' element={<FriesHotchips />}></Route>
+          <Route path='ChickenWrap' element={<ChickenWrap />}></Route>
+          <Route path='kiddies' element={<Kiddies />}></Route>
+          <Route path='briyanni' element={<Briyanni />}></Route>
+          <Route path='fishfingers' element={<FishFingers />}></Route>
+          <Route path='/minestrone' element={<MineStrone />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

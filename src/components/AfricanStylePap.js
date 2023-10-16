@@ -3,14 +3,11 @@ import { MDBContainer } from "mdb-react-ui-kit";
 import { TopNav } from './TopNav';
 import './AfricanStylePap.css';
 import { Link } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
 import { MDBRow, MDBCol } from 'mdb-react-ui-kit';
-
-
 
 import logoshesha from './images/logoshesha.png';
 
-export default function AfricanStylePap() {
+export const AfricanStylePap =() => {
     return (<>
         <TopNav />
         <section className="section_AfricanStyle" style={{ backgroundColor: "rgb(248, 248, 248)", height: "20vh", width: "125%", }}>

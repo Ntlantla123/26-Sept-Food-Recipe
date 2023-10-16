@@ -9,7 +9,7 @@ import Row from 'react-bootstrap/Row';
 import logoshesha from './images/logoshesha.png';
 
 
-export default function Contact() {
+export const Contact = () => {
     return (<>
         <TopNav />
         {/*Header Section*/}

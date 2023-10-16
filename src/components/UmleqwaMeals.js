@@ -10,7 +10,7 @@ import { MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
 import logoshesha from './images/logoshesha.png';
 
-export default function UmleqwaMeals() {
+export const UmleqwaMeals = () => {
     return (<>
         <TopNav />
         <section className="section_UmleqwaMeals" style={{ backgroundColor: "rgb(248, 248, 248)", height: "20vh", width: "125%", }}>

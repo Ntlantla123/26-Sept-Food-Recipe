@@ -3,11 +3,11 @@ import './BreadForTimes.css';
 import { TopNav } from './TopNav'
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import logoshesha from './images/logoshesha.png';
 import { Button } from 'react-bootstrap';
 
-export default function breadForTimes() {
+export const WrapperSausage = () => {
   return (<>
     <TopNav />
     <header className="Header_Bread12">
